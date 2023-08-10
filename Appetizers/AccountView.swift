@@ -9,8 +9,12 @@ import SwiftUI
 
 struct AccountView: View {
     var body: some View {
-        Text("Account View")
+        NavigationView{
+            Text("Account")
+                .navigationTitle("Accounts 🧾")
+        }
     }
+    
 }
 
 struct AccountView_Previews: PreviewProvider {
