@@ -31,7 +31,7 @@ struct MockData {
     static let sampleAppetizer = Appetizer(id: 001,
                                            name: "Chicken",
                                            description: "Test Food Item",
-                                           price: 99.9,
+                                           price: 9.99,
                                            imageURL: "",
                                            calories: 99,
                                            protein: 99,
